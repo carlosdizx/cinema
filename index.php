@@ -121,10 +121,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							  </div>
 							  <div class="form">
 								<h3>Login to your account</h3>
-								<form action="#" method="post">
-								  <input type="text" name="Username" placeholder="Username" required="">
-								  <input type="password" name="Password" placeholder="Password" required="">
-								  <input type="submit" value="Login">
+								<form action="iniciar_sesion.php" method="post">
+                                    <input type="email" name="email" placeholder="Correo electronico" required>
+                                    <input type="password" name="password" placeholder="Contraseña" required>
+								  <input type="submit" value="Iniciar Sesion" name="iniciar">
 								</form>
 							  </div>
 							  <div class="form">
