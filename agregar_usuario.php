@@ -6,5 +6,17 @@
         $password = $_POST['password'];
         $nombres = $_POST['nombres'];
         $apellidos = $_POST['apellidos'];
-        echo $email ."-" . $password . "-" . $nombres . "-" . $apellidos;
+        //echo $email ."-" . $password . "-" . $nombres . "-" . $apellidos;
+
+        $query = "INSERT INTO usuarios (nombres, apellidos, correo, password) VALUES
+                ('$nombres','$apellidos','$email','$password');";
+        $sql = mysqli_query($conexion,$query);
+        if (!$sql){
+            echo json_encode(["mensaje"=>"No se pudo registrar, ".$conexion->error]);
+        }
+        else
+        {
+            $_SESSION['usuarios'] = "Bienvenido ".$nombres." ".$apellidos;
+            header("Location:/cinema");
+        }
     }
