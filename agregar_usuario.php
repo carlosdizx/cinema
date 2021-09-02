@@ -16,7 +16,7 @@
         }
         else
         {
-            $_SESSION['usuarios'] = "Bienvenido ".$nombres." ".$apellidos;
+            $_SESSION['usuario'] = "Bienvenido ".$nombres;
             header("Location:/cinema");
         }
     }

@@ -85,7 +85,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="w3l_sign_in_register">
 				<ul>
-					<li><i class="fa fa-phone" aria-hidden="true"></i> (+000) 123 345 653</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i> <?php
+                        if(isset($_SESSION['usuario']))
+                            echo $_SESSION['usuario'];
+
+                         else
+                             echo "Inicia sesion";
+                         ?>
+                    </li>
 					<li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
 				</ul>
 			</div>
