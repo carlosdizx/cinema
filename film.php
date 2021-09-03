@@ -83,7 +83,48 @@
                         <strong>Listado de pelisculas</strong>
                     </div>
                     <div class="card-body">
-
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nombre</th>
+                                    <th>Fecha</th>
+                                    <th>Trailer</th>
+                                    <th>Director</th>
+                                    <th>Sinopsis</th>
+                                    <th>Imagen</th>
+                                    <th>Tipo</th>
+                                    <th>Genero</th>
+                                    <th>Pais</th>
+                                    <th>Plataforma</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php
+                                $sql = "SELECT f.id,f.nombre,f.fecha,f.trailer,f.director,f.sinopsis,f.ruta_img,t.nombre AS tipo,g.nombre AS genero,p.nombre AS pais,pl.nombre AS plataforma FROM films f
+                                    INNER JOIN tipos t ON f.tipo = t.id
+                                    INNER JOIN generos g ON f.genero = g.id
+                                    INNER JOIN paises p ON f.pais = p.id
+                                    INNER JOIN plataformas pl ON f.plataforma = pl.id;";
+                                $consulta=mysqli_query($conexion,$sql)or die(mysqli_error($conexion));
+                                while($row=mysqli_fetch_array($consulta)){
+                            ?>
+                                <tr>
+                                    <td><?= $row['id'] ?></td>
+                                    <td><?= $row['nombre'] ?></td>
+                                    <td><?= $row['fecha'] ?></td>
+                                    <td><?= $row['trailer'] ?></td>
+                                    <td><?= $row['director'] ?></td>
+                                    <td><?= $row['sinopsis'] ?></td>
+                                    <td><?= $row['ruta_img'] ?></td>
+                                    <td><?= $row['tipo'] ?></td>
+                                    <td><?= $row['genero'] ?></td>
+                                    <td><?= $row['pais'] ?></td>
+                                    <td><?= $row['plataforma'] ?></td>
+                                </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
