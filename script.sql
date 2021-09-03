@@ -29,25 +29,25 @@ CREATE TABLE IF NOT EXISTS usuarios
 CREATE TABLE IF NOT EXISTS tipos
 (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    nombres VARCHAR(100)
+    nombre VARCHAR(100)
 );
 
 CREATE TABLE IF NOT EXISTS generos
 (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    nombres VARCHAR(100)
+    nombre VARCHAR(100)
 );
 
 CREATE TABLE IF NOT EXISTS paises
 (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    nombres VARCHAR(100)
+    nombre VARCHAR(100)
 );
 
 CREATE TABLE IF NOT EXISTS plataformas
 (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    nombres VARCHAR(100)
+    nombre VARCHAR(100)
 );
 
 CREATE TABLE IF NOT EXISTS films
@@ -64,3 +64,8 @@ CREATE TABLE IF NOT EXISTS films
     pais INT NOT NULL,
     plataforma INT NOT NULL
 );
+
+INSERT INTO tipos (nombre) VALUES ('Pelicula'),('Serie'),('Telenovela'),('Documental');
+INSERT INTO generos (nombre) VALUES ('Accion'),('Biografia'),('Crimen'),('Familiar'),('Horror'),
+                                    ('Romance'),('Deportes'),('Aventuras'),('Accion'),
+                                    ('Comedia'),('Fantasia'),('Thiller'),('Musicales'),('Sicologicas');
