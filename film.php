@@ -15,7 +15,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <form action="" method="post" autocomplete="off">
+                        <form action="film.php" method="post" autocomplete="off">
                             <div class="form-group">
                                 <input class="form-control" type="text" name="nombre" placeholder="Nombre de la pelicula" required />
                                 <br />
@@ -34,8 +34,8 @@
                                 <select name="tipo" class="form-control">
                                     <?php
                                     $query="SELECT * FROM tipos;";
-                                    $sql=mysqli_query($conexion, $query);
-                                    while($row=mysqli_fetch_array($sql)){ ?>
+                                    $consulta=mysqli_query($conexion, $query);
+                                    while($row=mysqli_fetch_array($consulta)){ ?>
                                         <option value="<?= $row['id'];?>"><?= $row['nombre'];?></option>
                                     <?php } ?>
                                 </select>
@@ -44,8 +44,8 @@
                                 <select name="genero" class="form-control">
                                     <?php
                                     $query="SELECT * FROM generos;";
-                                    $sql=mysqli_query($conexion, $query);
-                                    while($row=mysqli_fetch_array($sql)){ ?>
+                                    $consulta=mysqli_query($conexion, $query);
+                                    while($row=mysqli_fetch_array($consulta)){ ?>
                                         <option value="<?= $row['id'];?>"><?= $row['nombre'];?></option>
                                     <?php } ?>
                                 </select>
@@ -54,8 +54,8 @@
                                 <select name="plataforma" class="form-control">
                                     <?php
                                     $query="SELECT * FROM plataformas;";
-                                    $sql=mysqli_query($conexion, $query);
-                                    while($row=mysqli_fetch_array($sql)){ ?>
+                                    $consulta=mysqli_query($conexion, $query);
+                                    while($row=mysqli_fetch_array($consulta)){ ?>
                                         <option value="<?= $row['id'];?>"><?= $row['nombre'];?></option>
                                     <?php } ?>
                                 </select>
@@ -64,8 +64,8 @@
                                 <select name="pais" class="form-control">
                                     <?php
                                     $query="SELECT * FROM paises;";
-                                    $sql=mysqli_query($conexion, $query);
-                                    while($row=mysqli_fetch_array($sql)){ ?>
+                                    $consulta=mysqli_query($conexion, $query);
+                                    while($row=mysqli_fetch_array($consulta)){ ?>
                                         <option value="<?= $row['id'];?>"><?= $row['nombre'];?></option>
                                     <?php } ?>
                                 </select>
@@ -90,7 +90,6 @@
         </div>
     </div>
 </body>
-
 <?php
     if (isset($_POST['agregar']))
     {
@@ -105,10 +104,15 @@
         $plataforma = $_POST['plataforma'];
         $pais = $_POST['pais'];
 
-        echo $tipo."-".$genero."-".$plataforma."-".$pais;
-
-        /*
         $query = "INSERT INTO films (nombre, fecha, trialer, director, sinopsis, ruta_img, genero, tipo, pais, plataforma)  VALUES
-                    ('$nombre','$fecha','$trailer','$director','$sinopsis');";
-        */
+                        ('$nombre','$fecha','$trailer','$director','$sinopsis','$ruta_img','$tipo','$genero','$pais','$plataforma');";
+        if (!mysqli_query($conexion, $query))
+        {
+            echo "<script>alert('No se pudo registrar')</script>";
+        }
+        else
+        {
+            echo "<script>alert('Registro exitoso')</script>";
+        }
     }
+?>
