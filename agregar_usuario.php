@@ -6,7 +6,7 @@
         $password = $_POST['password'];
         $nombres = $_POST['nombres'];
         $apellidos = $_POST['apellidos'];
-        //echo $email ."-" . $password . "-" . $nombres . "-" . $apellidos;
+        echo $email ."-" . $password . "-" . $nombres . "-" . $apellidos;
 
         $query = "INSERT INTO usuarios (nombres, apellidos, correo, password) VALUES
                 ('$nombres','$apellidos','$email','$password');";
