@@ -3,7 +3,7 @@
     if (isset($_POST['iniciar']))
     {
         $email = $_POST['email'];
-        $password = $_POST['password'];
+        $password = md5($_POST['password']);
         $query = "SELECT * FROM usuarios WHERE correo='$email' AND password = '$password';";
         $sql = mysqli_query($conexion,$query);
         $campos = mysqli_fetch_array($sql);
@@ -15,6 +15,7 @@
             if (!$campos)
             {
                 echo "<script>alert('Usuario incorrecto')</script>";
+                die("Vuelve a ingresar tus credenciales!");
             }
             else
             {
