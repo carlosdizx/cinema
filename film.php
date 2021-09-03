@@ -31,7 +31,7 @@
                                 <textarea class="form-control" name="sinopsis" placeholder="Sinopsis" ></textarea>
                                 <br />
                                 <input disabled value="Tipo de film">
-                                <select name="tipo" class="form-control" placeholder="Tipo de film" required>
+                                <select name="tipo" class="form-control" required>
                                     <?php
                                     $query="SELECT * FROM tipos;";
                                     $sql=mysqli_query($conexion, $query);
@@ -41,9 +41,29 @@
                                 </select>
                                 <br />
                                 <input disabled value="Genero">
-                                <select name="Genero" class="form-control" placeholder="Genero" required>
+                                <select name="Genero" class="form-control" required>
                                     <?php
                                     $query="SELECT * FROM generos;";
+                                    $sql=mysqli_query($conexion, $query);
+                                    while($row=mysqli_fetch_array($sql)){ ?>
+                                        <option value="<?= $row['id'];?>"><?= $row['nombre'];?></option>
+                                    <?php } ?>
+                                </select>
+                                <br />
+                                <input disabled value="Plataforma">
+                                <select name="Plataforma" class="form-control" required>
+                                    <?php
+                                    $query="SELECT * FROM plataformas;";
+                                    $sql=mysqli_query($conexion, $query);
+                                    while($row=mysqli_fetch_array($sql)){ ?>
+                                        <option value="<?= $row['id'];?>"><?= $row['nombre'];?></option>
+                                    <?php } ?>
+                                </select>
+                                <br />
+                                <input disabled value="Pais">
+                                <select name="pais" class="form-control" required>
+                                    <?php
+                                    $query="SELECT * FROM paises;";
                                     $sql=mysqli_query($conexion, $query);
                                     while($row=mysqli_fetch_array($sql)){ ?>
                                         <option value="<?= $row['id'];?>"><?= $row['nombre'];?></option>

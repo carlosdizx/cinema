@@ -69,3 +69,5 @@ INSERT INTO tipos (nombre) VALUES ('Pelicula'),('Serie'),('Telenovela'),('Docume
 INSERT INTO generos (nombre) VALUES ('Accion'),('Biografia'),('Crimen'),('Familiar'),('Horror'),
                                     ('Romance'),('Deportes'),('Aventuras'),('Accion'),
                                     ('Comedia'),('Fantasia'),('Thiller'),('Musicales'),('Sicologicas');
+INSERT INTO plataformas (nombre) VALUES ('Netflix'),('Disney+'),('Amazon Prime'),('DirecTV GO'),('HBO max'),('Hulu');
+INSERT INTO paises (nombre) VALUES ('E.E. U.U.'),('India'),('China'),('Reino Unido'),('España'),('Colombia');
