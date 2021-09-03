@@ -15,7 +15,7 @@
             if (!$campos)
             {
                 echo "<script>alert('Usuario incorrecto')</script>";
-                die("Vuelve a ingresar tus credenciales!");
+                die("<a href='/cinema'>volver</a>");
             }
             else
             {

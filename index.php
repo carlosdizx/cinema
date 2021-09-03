@@ -78,10 +78,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="index.php"><h1>One<span>Movies</span></h1></a>
 			</div>
 			<div class="w3_search">
-				<form action="#" method="post">
-					<input type="text" name="Search" placeholder="Search" required="">
-					<input type="submit" value="Go">
-				</form>
+                <?php
+                if(isset($_SESSION['usuario'])){ ?>
+                        <ul>
+                            <li><a href="#">Crear nueva pelicula</a></li>
+                            <li><a href="#">Borrar una pelicula</a></li>
+                        </ul>
+                <?php } ?>
 			</div>
 			<div class="w3l_sign_in_register">
 				<ul>
