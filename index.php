@@ -81,8 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <?php
                 if(isset($_SESSION['usuario'])){ ?>
                         <ul>
-                            <li><a href="#">Crear nueva pelicula</a></li>
-                            <li><a href="#">Borrar una pelicula</a></li>
+                            <li><a href="film.php">Gestionar films</a></li>
                         </ul>
                 <?php } ?>
 			</div>
