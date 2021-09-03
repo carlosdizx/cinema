@@ -28,10 +28,10 @@
                                 <br />
                                 <input class="form-control" type="text" name="ruta_img" placeholder="URL imagen" required />
                                 <br />
-                                <textarea class="form-control" name="sinopsis" placeholder="Sinopsis" ></textarea>
+                                <textarea class="form-control" name="sinopsis" placeholder="Sinopsis" required></textarea>
                                 <br />
                                 <input disabled value="Tipo de film">
-                                <select name="tipo" class="form-control" required>
+                                <select name="tipo" class="form-control">
                                     <?php
                                     $query="SELECT * FROM tipos;";
                                     $sql=mysqli_query($conexion, $query);
@@ -41,7 +41,7 @@
                                 </select>
                                 <br />
                                 <input disabled value="Genero">
-                                <select name="Genero" class="form-control" required>
+                                <select name="Genero" class="form-control">
                                     <?php
                                     $query="SELECT * FROM generos;";
                                     $sql=mysqli_query($conexion, $query);
@@ -51,7 +51,7 @@
                                 </select>
                                 <br />
                                 <input disabled value="Plataforma">
-                                <select name="Plataforma" class="form-control" required>
+                                <select name="plataforma" class="form-control">
                                     <?php
                                     $query="SELECT * FROM plataformas;";
                                     $sql=mysqli_query($conexion, $query);
@@ -61,7 +61,7 @@
                                 </select>
                                 <br />
                                 <input disabled value="Pais">
-                                <select name="pais" class="form-control" required>
+                                <select name="pais" class="form-control">
                                     <?php
                                     $query="SELECT * FROM paises;";
                                     $sql=mysqli_query($conexion, $query);
@@ -101,8 +101,11 @@
         $ruta_img = $_POST['ruta_img'];
         $sinopsis = $_POST['sinopsis'];
         $tipo = $_POST['tipo'];
+        $genero = $_POST['genero'];
+        $plataforma = $_POST['plataforma'];
+        $pais = $_POST['pais'];
 
-        echo $tipo;
+        echo $tipo."-".$genero."-".$plataforma."-".$pais;
 
         /*
         $query = "INSERT INTO films (nombre, fecha, trialer, director, sinopsis, ruta_img, genero, tipo, pais, plataforma)  VALUES
