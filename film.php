@@ -28,7 +28,7 @@
                                 <br />
                                 <input class="form-control" type="text" name="ruta_img" placeholder="URL imagen" required />
                                 <br />
-                                <textarea class="form-control" name="sinopsis" placeholder="Sinopsis" required></textarea>
+                                <textarea class="form-control" name="sinopsis" placeholder="Sinopsis" required ></textarea>
                                 <br />
                                 <input disabled value="Tipo de film">
                                 <select name="tipo" class="form-control">
@@ -41,7 +41,7 @@
                                 </select>
                                 <br />
                                 <input disabled value="Genero">
-                                <select name="Genero" class="form-control">
+                                <select name="genero" class="form-control">
                                     <?php
                                     $query="SELECT * FROM generos;";
                                     $sql=mysqli_query($conexion, $query);
