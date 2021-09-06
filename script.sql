@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS films
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     nombre VARCHAR(100) NOT NULL,
     fecha DATE NOT NULL,
-    trialer VARCHAR(255) NOT NULL,
+    trailer VARCHAR(255) NOT NULL,
     director VARCHAR(100) NOT NULL,
     sinopsis VARCHAR(255) NOT NULL,
     ruta_img VARCHAR(255) NOT NULL,
@@ -72,5 +72,5 @@ INSERT INTO generos (nombre) VALUES ('Accion'),('Biografia'),('Crimen'),('Famili
 INSERT INTO plataformas (nombre) VALUES ('Netflix'),('Disney+'),('Amazon Prime'),('DirecTV GO'),('HBO max'),('Hulu');
 INSERT INTO paises (nombre) VALUES ('E.E. U.U.'),('India'),('China'),('Reino Unido'),('España'),('Colombia');
 
-INSERT INTO usuarios (nombres, apellidos, correo, password) VALUES
-    ('Carlos Ernesto','Diaz Basante','carlodiaz@umariana.edu.co','12345678');
+INSERT INTO usuarios (nombres, apellidos, correo, password)
+VALUES ('Carlos Ernesto','Diaz Basante','carlodiaz@umariana.edu.co','25d55ad283aa400af464c76d713c07ad');

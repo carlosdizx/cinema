@@ -13,7 +13,7 @@ if (isset($_POST['agregar']))
     $plataforma = $_POST['plataforma'];
     $pais = $_POST['pais'];
 
-    $query = "INSERT INTO films (nombre, fecha, trialer, director, sinopsis, ruta_img, genero, tipo, pais, plataforma)  VALUES
+    $query = "INSERT INTO films (nombre, fecha, trailer, director, sinopsis, ruta_img, genero, tipo, pais, plataforma)  VALUES
                         ('$nombre','$fecha','$trailer','$director','$sinopsis','$ruta_img','$tipo','$genero','$pais','$plataforma');";
     if (!mysqli_query($conexion, $query))
     {
