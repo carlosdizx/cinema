@@ -86,22 +86,18 @@
                         <table class="table table-striped table-dark">
                             <thead>
                                 <tr>
-                                    <th>Id</th>
+                                    <th>Detalles</th>
                                     <th>Nombre</th>
-                                    <th>Fecha</th>
-                                    <th>Trailer</th>
-                                    <th>Director</th>
-                                    <th>Sinopsis</th>
                                     <th>Imagen</th>
                                     <th>Tipo</th>
                                     <th>Genero</th>
                                     <th>Pais</th>
-                                    <th>Plataforma</th>
+                                    <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody>
                             <?php
-                                $sql = "SELECT f.id,f.nombre,f.fecha,f.trailer,f.director,f.sinopsis,f.ruta_img,t.nombre AS tipo,g.nombre AS genero,p.nombre AS pais,pl.nombre AS plataforma FROM films f
+                                $sql = "SELECT f.nombre,f.ruta_img,t.nombre AS tipo,g.nombre AS genero,p.nombre AS pais,pl.nombre AS plataforma FROM films f
                                     INNER JOIN tipos t ON f.tipo = t.id
                                     INNER JOIN generos g ON f.genero = g.id
                                     INNER JOIN paises p ON f.pais = p.id
@@ -110,17 +106,24 @@
                                 while($row=mysqli_fetch_array($consulta)){
                             ?>
                                 <tr>
-                                    <td><?= $row['id'] ?></td>
+                                    <td>
+                                        <a class="btn btn-primary" href="">
+                                            <span class="mdi mdi-eye"></span>
+                                        </a>
+                                    </td>
                                     <td><?= $row['nombre'] ?></td>
-                                    <td><?= $row['fecha'] ?></td>
-                                    <td><?= $row['trailer'] ?></td>
-                                    <td><?= $row['director'] ?></td>
-                                    <td><?= $row['sinopsis'] ?></td>
                                     <td><?= $row['ruta_img'] ?></td>
                                     <td><?= $row['tipo'] ?></td>
                                     <td><?= $row['genero'] ?></td>
                                     <td><?= $row['pais'] ?></td>
-                                    <td><?= $row['plataforma'] ?></td>
+                                    <td>
+                                        <a class="btn btn-warning" href="">
+                                            <span class="mdi mdi-pencil-outline"></span>
+                                        </a>
+                                        <a class="btn btn-danger" href="">
+                                            <span class="mdi mdi-trash-can-outline"></span>
+                                        </a>
+                                    </td>
                                 </tr>
                                 <?php } ?>
                             </tbody>
