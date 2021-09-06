@@ -120,7 +120,7 @@
                                         <a class="btn btn-warning" href="">
                                             <span class="mdi mdi-pencil-outline"></span>
                                         </a>
-                                        <a class="btn btn-danger" href="?eliminar=<?=$row['id']?>">
+                                        <a class="btn btn-danger" href="eliminar_film.php?eliminar=<?=$row['id']?>">
                                             <span class="mdi mdi-trash-can-outline"></span>
                                         </a>
                                     </td>
@@ -157,19 +157,6 @@
         else
         {
             echo "<script>alert('Registro exitoso')</script>";
-        }
-    }
-    if(isset($_GET['eliminar']))
-    {
-        $id = $_GET['eliminar'];
-        $query = "DELETE FROM films WHERE id = '$id';";
-        if (!mysqli_query($conexion, $query))
-        {
-            echo "<script>alert('No se pudo eliminar')</script>";
-        }
-        else
-        {
-            echo "<script>alert('elimanacion exitosa')</script>";
         }
     }
 ?>

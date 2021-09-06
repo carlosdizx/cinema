@@ -71,3 +71,6 @@ INSERT INTO generos (nombre) VALUES ('Accion'),('Biografia'),('Crimen'),('Famili
                                     ('Comedia'),('Fantasia'),('Thiller'),('Musicales'),('Sicologicas');
 INSERT INTO plataformas (nombre) VALUES ('Netflix'),('Disney+'),('Amazon Prime'),('DirecTV GO'),('HBO max'),('Hulu');
 INSERT INTO paises (nombre) VALUES ('E.E. U.U.'),('India'),('China'),('Reino Unido'),('España'),('Colombia');
+
+INSERT INTO usuarios (nombres, apellidos, correo, password) VALUES
+    ('Carlos Ernesto','Diaz Basante','carlodiaz@umariana.edu.co','12345678');
