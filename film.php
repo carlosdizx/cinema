@@ -9,6 +9,13 @@
     <?php include("docs/conexion.php"); ?>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="btn btn-secondary" href="index.php">
+                <span class="mdi mdi-arrow-left">Volver</span>
+            </a>
+        </div>
+    </nav>
         <div class="container p-4">
         <div class="row">
 

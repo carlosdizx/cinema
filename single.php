@@ -385,10 +385,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="single-grid-right">
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/m1.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/m1.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -396,10 +396,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/m2.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/m2.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views </p>
 							</div>
@@ -407,10 +407,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/m3.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/m3.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -418,10 +418,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/m4.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/m4.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -429,10 +429,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/m5.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/m5.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -440,10 +440,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/c5.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/c5.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -451,10 +451,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/m6.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/m6.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author">By <a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -462,10 +462,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/m15.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/m15.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author">By <a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -485,12 +485,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div id="owl-demo" class="owl-carousel owl-theme">
 					<div class="item">
 						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m13.jpg" title="album-name" class="img-responsive" alt=" " />
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m13.jpg" title="album-name" class="img-responsive" alt=" " />
 								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Citizen Soldier</a></h6>							
+									<h6><a href="single.php">Citizen Soldier</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -513,12 +513,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="item">
 						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m11.jpg" title="album-name" class="img-responsive" alt=" " />
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m11.jpg" title="album-name" class="img-responsive" alt=" " />
 								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">X-Men</a></h6>							
+									<h6><a href="single.php">X-Men</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -541,12 +541,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="item">
 						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m12.jpg" title="album-name" class="img-responsive" alt=" " />
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m12.jpg" title="album-name" class="img-responsive" alt=" " />
 								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Greater</a></h6>							
+									<h6><a href="single.php">Greater</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -569,12 +569,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="item">
 						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m7.jpg" title="album-name" class="img-responsive" alt=" " />
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m7.jpg" title="album-name" class="img-responsive" alt=" " />
 								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Light B/t Oceans</a></h6>							
+									<h6><a href="single.php">Light B/t Oceans</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -597,96 +597,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="item">
 						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m8.jpg" title="album-name" class="img-responsive" alt=" " />
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m8.jpg" title="album-name" class="img-responsive" alt=" " />
 								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">The BFG</a></h6>							
-								</div>
-								<div class="mid-2 agile_mid_2_home">
-									<p>2016</p>
-									<div class="block-stars">
-										<ul class="w3l-ratings">
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="ribben">
-								<p>NEW</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m9.jpg" title="album-name" class="img-responsive" alt=" " />
-								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
-							</a>
-							<div class="mid-1 agileits_w3layouts_mid_1_home">
-								<div class="w3l-movie-text">
-									<h6><a href="single.html">Central Intelligence</a></h6>							
-								</div>
-								<div class="mid-2 agile_mid_2_home">
-									<p>2016</p>
-									<div class="block-stars">
-										<ul class="w3l-ratings">
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="ribben">
-								<p>NEW</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m10.jpg" title="album-name" class="img-responsive" alt=" " />
-								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
-							</a>
-							<div class="mid-1 agileits_w3layouts_mid_1_home">
-								<div class="w3l-movie-text">
-									<h6><a href="single.html">Don't Think Twice</a></h6>							
-								</div>
-								<div class="mid-2 agile_mid_2_home">
-									<p>2016</p>
-									<div class="block-stars">
-										<ul class="w3l-ratings">
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="ribben">
-								<p>NEW</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m17.jpg" title="album-name" class="img-responsive" alt=" " />
-								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
-							</a>
-							<div class="mid-1 agileits_w3layouts_mid_1_home">
-								<div class="w3l-movie-text">
-									<h6><a href="single.html">Peter</a></h6>							
+									<h6><a href="single.php">The BFG</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -709,12 +625,96 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="item">
 						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="images/m15.jpg" title="album-name" class="img-responsive" alt=" " />
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m9.jpg" title="album-name" class="img-responsive" alt=" " />
 								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">God’s Compass</a></h6>							
+									<h6><a href="single.php">Central Intelligence</a></h6>
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m10.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.php">Don't Think Twice</a></h6>
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m17.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.php">Peter</a></h6>
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m15.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.php">God’s Compass</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
