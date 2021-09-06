@@ -15,7 +15,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <form action="film.php" method="post" autocomplete="off">
+                        <form action="agregar_film.php" method="post" autocomplete="off">
                             <div class="form-group">
                                 <input class="form-control" type="text" name="nombre" placeholder="Nombre de la pelicula" required />
                                 <br />
@@ -134,29 +134,3 @@
         </div>
     </div>
 </body>
-<?php
-    if (isset($_POST['agregar']))
-    {
-        $nombre = $_POST['nombre'];
-        $fecha = $_POST['fecha'];
-        $trailer = $_POST['trailer'];
-        $director = $_POST['director'];
-        $ruta_img = $_POST['ruta_img'];
-        $sinopsis = $_POST['sinopsis'];
-        $tipo = $_POST['tipo'];
-        $genero = $_POST['genero'];
-        $plataforma = $_POST['plataforma'];
-        $pais = $_POST['pais'];
-
-        $query = "INSERT INTO films (nombre, fecha, trialer, director, sinopsis, ruta_img, genero, tipo, pais, plataforma)  VALUES
-                        ('$nombre','$fecha','$trailer','$director','$sinopsis','$ruta_img','$tipo','$genero','$pais','$plataforma');";
-        if (!mysqli_query($conexion, $query))
-        {
-            echo "<script>alert('No se pudo registrar')</script>";
-        }
-        else
-        {
-            echo "<script>alert('Registro exitoso')</script>";
-        }
-    }
-?>
