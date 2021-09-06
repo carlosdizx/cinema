@@ -97,7 +97,7 @@
                             </thead>
                             <tbody>
                             <?php
-                                $sql = "SELECT f.nombre,f.ruta_img,t.nombre AS tipo,g.nombre AS genero,p.nombre AS pais,pl.nombre AS plataforma FROM films f
+                                $sql = "SELECT f.id,f.nombre,f.ruta_img,t.nombre AS tipo,g.nombre AS genero,p.nombre AS pais,pl.nombre AS plataforma FROM films f
                                     INNER JOIN tipos t ON f.tipo = t.id
                                     INNER JOIN generos g ON f.genero = g.id
                                     INNER JOIN paises p ON f.pais = p.id
@@ -120,7 +120,7 @@
                                         <a class="btn btn-warning" href="">
                                             <span class="mdi mdi-pencil-outline"></span>
                                         </a>
-                                        <a class="btn btn-danger" href="">
+                                        <a class="btn btn-danger" href="?eliminar=<?=$row['id']?>">
                                             <span class="mdi mdi-trash-can-outline"></span>
                                         </a>
                                     </td>
@@ -157,6 +157,19 @@
         else
         {
             echo "<script>alert('Registro exitoso')</script>";
+        }
+    }
+    if(isset($_GET['eliminar']))
+    {
+        $id = $_GET['eliminar'];
+        $query = "DELETE FROM films WHERE id = '$id';";
+        if (!mysqli_query($conexion, $query))
+        {
+            echo "<script>alert('No se pudo eliminar')</script>";
+        }
+        else
+        {
+            echo "<script>alert('elimanacion exitosa')</script>";
         }
     }
 ?>
