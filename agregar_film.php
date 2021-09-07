@@ -14,7 +14,7 @@ if (isset($_POST['agregar']))
     $pais = $_POST['pais'];
 
     $query = "INSERT INTO films (nombre, fecha, trailer, director, sinopsis, ruta_img, genero, tipo, pais, plataforma)  VALUES
-                        ('$nombre','$fecha','$trailer','$director','$sinopsis','$ruta_img','$tipo','$genero','$pais','$plataforma');";
+                        ('$nombre','$fecha','$trailer','$director','$sinopsis','$ruta_img','$genero','$tipo','$pais','$plataforma');";
     if (!mysqli_query($conexion, $query))
     {
         echo "<script>alert('No se pudo registrar')</script>";

@@ -95,7 +95,6 @@
                                 <tr>
                                     <th>Detalles</th>
                                     <th>Nombre</th>
-                                    <th>Imagen</th>
                                     <th>Tipo</th>
                                     <th>Genero</th>
                                     <th>Pais</th>
@@ -104,7 +103,7 @@
                             </thead>
                             <tbody>
                             <?php
-                                $sql = "SELECT f.id,f.nombre,f.ruta_img,t.nombre AS tipo,g.nombre AS genero,p.nombre AS pais,pl.nombre AS plataforma FROM films f
+                                $sql = "SELECT f.id,f.nombre,t.nombre AS tipo,g.nombre AS genero,p.nombre AS pais,pl.nombre AS plataforma FROM films f
                                     INNER JOIN tipos t ON f.tipo = t.id
                                     INNER JOIN generos g ON f.genero = g.id
                                     INNER JOIN paises p ON f.pais = p.id
@@ -119,7 +118,6 @@
                                         </a>
                                     </td>
                                     <td><?= $row['nombre'] ?></td>
-                                    <td><?= $row['ruta_img'] ?></td>
                                     <td><?= $row['tipo'] ?></td>
                                     <td><?= $row['genero'] ?></td>
                                     <td><?= $row['pais'] ?></td>
