@@ -3,7 +3,12 @@ include "docs/conexion.php";
 if (isset($_GET['id']))
 {
     $idFilm = $_GET['id'];
-    $query="SELECT * FROM films WHERE id = '$idFilm';";
+    $query="SELECT f.id,f.nombre,f.fecha,f.trailer,f.director,f.sinopsis,f.ruta_img,g.nombre AS genero,t.nombre AS tipo,p.nombre AS pais,pl.nombre AS plataforma FROM films f
+            INNER JOIN tipos t ON f.tipo = t.id
+            INNER JOIN generos g ON f.genero = g.id
+            INNER JOIN paises p ON f.pais = p.id
+            INNER JOIN plataformas pl ON f.plataforma = pl.id
+            WHERE f.id = '$idFilm'";
     $sql=mysqli_query($conexion, $query);
 }
 ?>
@@ -290,7 +295,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                         <input type="text" value="<?=$row['director']?>" disabled>
                                                         <img src="<?=$row['ruta_img']?>" width="560">
                                                         <textarea disabled><?=$row['sinopsis']?></textarea>
-                                                        <input type="submit" value="SEND">
+                                                        <input type="text" value="<?=$row['genero']?>" disabled>
+                                                        <input type="text" value="<?=$row['tipo']?>" disabled>
+                                                        <input type="text" value="<?=$row['pais']?>" disabled>
+                                                        <input type="text" value="<?=$row['plataforma']?>" disabled>
                                                         <div class="clearfix"> </div>
                                                     </form>
                                                 </div>
