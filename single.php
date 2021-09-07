@@ -275,8 +275,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <?php
                                 if ($sql) {
                                     while ($row = mysqli_fetch_array($sql)) {
-                                        echo $row['nombre'];
-                                    }
+                                        echo $row['nombre']; ?>
+                                        <iframe width="560" height="315" src="<?= $row['trailer']?>"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen>
+                                        </iframe>
+                                        <div class="all-comments">
+                                            <div class="all-comments-info">
+                                                <a href="#">Comments</a>
+                                                <div class="agile-info-wthree-box">
+                                                    <form>
+                                                        <input type="text" value="<?=$row['fecha']?>" disabled>
+                                                        <input type="text" value="<?=$row['director']?>" disabled>
+                                                        <img src="<?=$row['ruta_img']?>" width="560">
+                                                        <textarea disabled><?=$row['sinopsis']?></textarea>
+                                                        <input type="submit" value="SEND">
+                                                        <div class="clearfix"> </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php }
                                 }
                                 ?>
                             </h3>
@@ -285,7 +305,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <?php
                         if ($sql) {
                             while ($row = mysqli_fetch_array($sql)) {?>
-                                <iframe width="560" height="315" src="<?=$row['trailer']?>"
+
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/9aS-EgdAq6U"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen>
@@ -293,21 +314,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <?php }
                         }
                         ?>
-					</div>
-					<div class="all-comments">
-						<div class="all-comments-info">
-							<a href="#">Comments</a>
-							<div class="agile-info-wthree-box">
-								<form>
-									<input type="text" placeholder="Name" required="">			           					   
-									<input type="text" placeholder="Email" required="">
-									<input type="text" placeholder="Phone" required="">
-									<textarea placeholder="Message" required=""></textarea>
-									<input type="submit" value="SEND">
-									<div class="clearfix"> </div>
-								</form>
-							</div>
-						</div>
 					</div>
 				</div>
 
