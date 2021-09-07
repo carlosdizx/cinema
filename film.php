@@ -113,7 +113,7 @@
                             ?>
                                 <tr>
                                     <td>
-                                        <a class="btn btn-primary" href="">
+                                        <a class="btn btn-primary" href="single.php?id=<?=$row['id']?>">
                                             <span class="mdi mdi-eye"></span>
                                         </a>
                                     </td>
@@ -122,9 +122,6 @@
                                     <td><?= $row['genero'] ?></td>
                                     <td><?= $row['pais'] ?></td>
                                     <td>
-                                        <a class="btn btn-warning" href="">
-                                            <span class="mdi mdi-pencil-outline"></span>
-                                        </a>
                                         <a class="btn btn-danger" href="eliminar_film.php?eliminar=<?=$row['id']?>">
                                             <span class="mdi mdi-trash-can-outline"></span>
                                         </a>
