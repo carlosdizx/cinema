@@ -302,26 +302,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3_agile_banner_bottom_grid">
 				<div id="owl-demo" class="owl-carousel owl-theme">
-					<div class="item">
-						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-							<a href="single.php" class="hvr-shutter-out-horizontal"><img src="images/m13.jpg" title="album-name" class="img-responsive" alt=" " />
-								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
-							</a>
-							<div class="mid-1 agileits_w3layouts_mid_1_home">
-								<div class="w3l-movie-text">
-									<h6><a href="single.php">Citizen Soldier</a></h6>
-								</div>
-								<div class="mid-2 agile_mid_2_home">
-									<p>2016</p>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="ribben">
-								<p>NEW</p>
-							</div>
-						</div>
+                    <?php
+                    $query="SELECT f.id,f.nombre,f.fecha,f.trailer,f.director,f.sinopsis,f.ruta_img,g.nombre AS genero,t.nombre AS tipo,p.nombre AS pais,pl.nombre AS plataforma FROM films f
+                    INNER JOIN tipos t ON f.tipo = t.id
+                    INNER JOIN generos g ON f.genero = g.id
+                    INNER JOIN paises p ON f.pais = p.id
+                    INNER JOIN plataformas pl ON f.plataforma = pl.id;";
+                    $sql=mysqli_query($conexion, $query);
+                    if ($sql) {
+                        while ($row = mysqli_fetch_array($sql)) {?>
+                            <div class="item">
+                                <div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+                                    <a href="single.php" class="hvr-shutter-out-horizontal">
+                                        <img src="<?=$row['ruta_img']?>" width="100" height="100" title="album-name" class="img-responsive" alt=" " />
+                                        <div class="w3l-action-icon">
+                                            <i class="fa fa-play-circle" aria-hidden="true">
+
+                                            </i>
+                                        </div>
+                                    </a>
+                                    <div class="mid-1 agileits_w3layouts_mid_1_home">
+                                        <div class="w3l-movie-text">
+                                            <h6><a href="single.php"><?=$row['nombre']?></a></h6>
+                                        </div>
+                                        <div class="mid-2 agile_mid_2_home">
+                                            <p><?=$row['fecha']?></p>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php }
+                    }
+                    ?>
 					</div>
-				</div>
 			</div>			
 		</div>
 	</div>
