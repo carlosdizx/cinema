@@ -313,7 +313,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         while ($row = mysqli_fetch_array($sql)) {?>
                             <div class="item">
                                 <div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-                                    <a href="single.php" class="hvr-shutter-out-horizontal">
+                                    <a href="single.php?id=<?=$row['id']?>" class="hvr-shutter-out-horizontal">
                                         <img src="<?=$row['ruta_img']?>" width="100" height="100" title="album-name" class="img-responsive" alt=" " />
                                         <div class="w3l-action-icon">
                                             <i class="fa fa-play-circle" aria-hidden="true">
